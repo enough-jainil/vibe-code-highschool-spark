@@ -8,9 +8,6 @@ import SleepProject from '@/components/projects/SleepProject';
 import AttendanceProject from '@/components/projects/AttendanceProject';
 import WineProject from '@/components/projects/WineProject';
 
-// We need to add this dependency for the animations
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
-
 // App state types
 type AppState = 'landing' | 'explainer' | 'selector' | 'project';
 type ProjectType = null | 1 | 2 | 3;
